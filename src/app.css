@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+@font-face {
+  font-family: Rungli-Regular;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/static/fonts/Rungli-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: Rungli-Italic;
+  font-style: italic;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/static/fonts/Rungli-Italic.woff") format("woff");
+}
+
+@theme {
+  --font-rungli: "Rungli-Regular", "sans-serif";
+  --font-rungli-italic: "Rungli-Italic", "sans-serif";
+}
